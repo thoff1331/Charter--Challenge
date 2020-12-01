@@ -87,7 +87,7 @@ body {
   font-weight: bolder;
 }
 
-.filter {
+.restaurant-filter {
   display: flex;
   justify-content: center;
   align-items: center;

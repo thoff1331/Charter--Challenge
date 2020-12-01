@@ -3,7 +3,7 @@ import Pagination from "./components/pagination";
 import stateOptions from "./data/stateOPtions.json";
 import filterOptions from "./data/filterOptions.json";
 import React from "react";
-class App extends React.Component {
+class Table extends React.Component {
   constructor() {
     super();
 
@@ -227,7 +227,7 @@ class App extends React.Component {
               </select>
             </div>
           </div>
-          <div className="filter">
+          <div className="restaurant-filter">
             <table id="myTable" className="restaurants">
               <tbody>
                 <tr>{this.createHeader()}</tr>
@@ -271,4 +271,4 @@ class App extends React.Component {
   }
 }
 
-export default App;
+export default Table;
